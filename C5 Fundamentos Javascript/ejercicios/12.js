@@ -6,6 +6,11 @@ function tienenMismaLongitud(str1, str2) {
   // "SoyHenry", "HenrySoy" ---> true 
   // "hi", "there" ---> false 
   // Tu código:
+  if (typeof str1 === "string" && typeof str2 === "string" && str1.length === str2.length) {
+    return true; 
+  } else {
+    return false;
+  }
 }
 
 module.exports = tienenMismaLongitud;

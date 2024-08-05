@@ -7,6 +7,8 @@ function elevarAlCubo(num) {
   // 3 ---> 27
   // 0 ---> 0
   // Tu código:
+  resultado = num ** 3;
+  return resultado;
 }
 
 module.exports = elevarAlCubo;

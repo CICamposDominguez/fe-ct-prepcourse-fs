@@ -7,6 +7,8 @@ function elevarAlCuadrado(num) {
   // 6 ---> 36
   // 0 ---> 0
   // Tu código:
+  resultado = num ** 2;
+  return resultado;
 }
 
 module.exports = elevarAlCuadrado;
